@@ -1,0 +1,17 @@
+{
+  "name": "api_500px",
+  "version": "0.0.0",
+  "description": "500px API helper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "keywords": [
+    "500px",
+    "api",
+    "oauth"
+  ],
+  "author": "Alex Indigo <iam@alexindigo.com>",
+  "license": "MIT"
+}
