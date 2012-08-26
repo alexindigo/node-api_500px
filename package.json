@@ -4,7 +4,10 @@
   "description": "500px API helper",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test/run.js"
+  },
+  "engines": {
+    "node": ">= 0.6"
   },
   "repository": "",
   "keywords": [
@@ -13,5 +16,12 @@
     "oauth"
   ],
   "author": "Alex Indigo <iam@alexindigo.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "utest": "0.0.6",
+    "urun": "0.0.6"
+  },
+  "dependencies": {
+    "oauth": "~0.9.8"
+  }
 }
