@@ -1,7 +1,7 @@
 {
   "name": "api_500px",
-  "version": "0.0.0",
-  "description": "500px API helper",
+  "version": "0.0.1",
+  "description": "500px API helper, including OAuth and upload",
   "main": "index.js",
   "scripts": {
     "test": "node test/run.js"
@@ -9,7 +9,7 @@
   "engines": {
     "node": ">= 0.6"
   },
-  "repository": "",
+  "repository": "git@github.com:alexindigo/node-api_500px.git",
   "keywords": [
     "500px",
     "api",
