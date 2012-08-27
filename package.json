@@ -13,7 +13,8 @@
   "keywords": [
     "500px",
     "api",
-    "oauth"
+    "oauth",
+    "upload"
   ],
   "author": "Alex Indigo <iam@alexindigo.com>",
   "license": "MIT",
@@ -22,6 +23,7 @@
     "urun": "0.0.6"
   },
   "dependencies": {
-    "oauth": "~0.9.8"
+    "oauth": "~0.9.8",
+    "form-data": "0.0.3"
   }
 }
