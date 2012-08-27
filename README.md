@@ -1,10 +1,10 @@
 # api_500px
 
-[![Build Status](https://secure.travis-ci.org/alexindigo/api_500px.png)](http://travis-ci.org/alexindigo/api_500px)
+[![Build Status](https://secure.travis-ci.org/alexindigo/node-api_500px.png)](http://travis-ci.org/alexindigo/node-api_500px)
 
 Helper (simple wrapper) for 500px API.
 
-*Focused on authenticated user photos manipulation, inluding upload*
+*Focused on authenticated user photo manipulations, including upload*
 
 ## Installation
 
