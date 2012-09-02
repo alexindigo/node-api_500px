@@ -101,7 +101,7 @@ test('api_500px-getPhotoInfo',
     {
       key: 'api_test_key_token',
       secret: 'api_test_secret_token',
-      callback: 'http://api_test_callback_url',
+      callback: 'http://api_test_callback_url'
     });
   },
 
