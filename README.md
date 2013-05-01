@@ -1,6 +1,4 @@
-# api_500px
-
-[![Build Status](https://secure.travis-ci.org/alexindigo/node-api_500px.png)](http://travis-ci.org/alexindigo/node-api_500px)
+# api_500px [![Build Status](https://secure.travis-ci.org/alexindigo/node-api_500px.png)](http://travis-ci.org/alexindigo/node-api_500px) [![Dependency Status](https://gemnasium.com/alexindigo/node-api_500px.png)](https://gemnasium.com/alexindigo/node-api_500px)
 
 Helper (simple wrapper) for 500px API.
 
@@ -77,7 +75,7 @@ api.getUser(function(err, userData)
   // - normalized: api.data.user.id and api.data.user.username
   // - original: api.data.user._details
   // "returned" userData has same format
-  
+
   callback(null, userData);
 });
 ```
@@ -179,6 +177,7 @@ api.uploadPhoto(photoUrl, flickrNormalizedPhotoInfoData, function(err, result)
   // result consists of two properties
   // - result.message: upload status message
   // - result.photo: parsed, non-normalized created photo object
+  callback(null, result.photo);
 });
 
 ```

@@ -1,6 +1,6 @@
 {
   "name": "api_500px",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "500px API helper, including OAuth and upload",
   "main": "index.js",
   "scripts": {
@@ -19,11 +19,11 @@
   "author": "Alex Indigo <iam@alexindigo.com>",
   "license": "MIT",
   "devDependencies": {
-    "utest": "0.0.6",
-    "urun": "0.0.6"
+    "utest": "~0.0.8",
+    "urun": "~0.0.6"
   },
   "dependencies": {
     "oauth": "~0.9.8",
-    "form-data": "0.0.3"
+    "form-data": "~0.0.9"
   }
 }
