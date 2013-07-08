@@ -1,6 +1,6 @@
 {
   "name": "api_500px",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "500px API helper, including OAuth and upload",
   "main": "index.js",
   "scripts": {
@@ -23,7 +23,7 @@
     "urun": "~0.0.6"
   },
   "dependencies": {
-    "oauth": "~0.9.8",
-    "form-data": "~0.0.9"
+    "oauth": "~0.9.10",
+    "form-data": "~0.1.0"
   }
 }

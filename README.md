@@ -4,15 +4,6 @@ Helper (simple wrapper) for 500px API.
 
 *Focused on authenticated user photo manipulations, including upload*
 
-## Codebux
-
-```
-+   100.00  # initial stipend
--    19.86  # index.js
-—————————————————————————————————————————————————
-+    80.13
-```
-
 ## Installation
 
 ```
